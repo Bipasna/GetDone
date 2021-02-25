@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<form class="search-box"
+method="post"
+action="{% url 'merchantSearch' %}">
+    {% csrf_token %}
+
+    <input type="text" name="merchantName"
+    <button  class="btn btn-primary"> Search </button>
+    
+</form>
+
+{% for merchant in merchants %}
+    <ul>
+        <li><h1><a href="{% url 'merchantProfile' merchant.id %}">{{merchant.name}}</a></h1></li>
+        <li><h5>{{merchant.phone}}</h5></li>
+        <li><h5>{{merchant.email}}</h5></li>
+    </ul>
+{% endfor %}
+ 
+
+<h1>{{rambilas}} is the variable</h1>
+{% endblock %}

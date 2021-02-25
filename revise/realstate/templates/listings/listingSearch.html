@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+ 
+
+{% block content %}
+<h1>{{keyword}}</h1>
+{% for list in listing %}
+    <ul>
+        <li><h1><a href="{% url 'listingProfile' list.id %}">{{merchant.name}}</a></h1></li>
+       
+    </ul>
+{% endfor %}
+{% endblock %}

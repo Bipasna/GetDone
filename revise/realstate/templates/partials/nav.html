@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>This is nav page</h1> -->
+    <nav>
+    <div ="logo">
+        Logo
+    </div>
+    <div class="nav-items">
+        <a href="{% url 'index' %}"  class="nav_item">Home</a>
+        <a href="{% url 'listingList' %}" class="nav_item">Listings</a>
+        <a href="{% url 'merchantList' %}" class="nav_item">Merchant Listings</a>
+        <a href="{% url 'about' %}" class="nav_item">About</a>
+        <a href="{% url 'contacts' %}"  class="nav_item">Contacts</a>
+        <a herf="" class="nav-item">Others</a>
+    </div>
+</nav>
+    
+</body>
+</html>

@@ -1,0 +1,60 @@
+h1{
+    color:red;
+}
+body{
+    margin:0;
+}
+header{
+    background: rgba(0,0,0,0.8);
+    padding:2vh,5vw ;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header button{
+    background: coral;
+    padding: 2vh,5vw;
+    height: 100%;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+
+}
+nav{
+    height: 10vh;
+    width: 100;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    display: flex;
+    padding: 0 5vw;
+    /* color: white; */
+    justify-content: space-between;
+    box-shadow: 0 2px 8px 0px rgba(0,0,0,0.12);
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+    
+}
+.home{
+    height: 84vh;
+    width: 100%;
+    /* padding: ;
+    box-sizing: ;
+    position: ; */
+}
+.home.text.area{
+    padding:0  5vh ;
+    /* width: ;
+    box-sizing: ;
+    z-index: ;
+    display: ;
+    flex-direction: ;
+     */
+
+}
